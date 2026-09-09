@@ -116,7 +116,7 @@ Building a JSON event-booking API with Gin, SQLite, JWT auth, and route middlewa
 - Passwords are hashed at rest and identity travels in a signed JWT — the token carries the user id the handlers authorize against.
 - Authorization is distinct from authentication: knowing who the caller is does not decide whether they own the event they're editing.
 
-Note: this section's code under `10-rest-api/author-source/` is the author's original source, kept so the course reference is complete. Everything else in this repo is my own work from following along.
+Note: this section is the author's original source, kept so the course reference is complete. Everything else in this repo is my own work from following along.
 
 ---
 
@@ -134,7 +134,7 @@ go run .
 For the REST API section:
 
 ```bash
-cd 10-rest-api/author-source/16-cancelling-registrations
+cd 10-rest-api/16-cancelling-registrations
 go mod tidy
 go run .
 # serves on http://localhost:8080
@@ -152,7 +152,7 @@ go run .
 07-functions-deep-dive/
 08-practice-project/
 09-concurrency/
-10-rest-api/author-source/
+10-rest-api/
 certificate/
 ```
 
