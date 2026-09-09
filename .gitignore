@@ -1,0 +1,29 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+app
+main
+
+# Test binaries and coverage
+*.test
+*.out
+
+# Go workspace / build cache
+go.work
+go.work.sum
+vendor/
+
+# Local databases produced by the REST API section
+*.db
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
